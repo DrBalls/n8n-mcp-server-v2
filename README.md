@@ -88,7 +88,8 @@ Unlike the limited default connector, this server includes **40+ tools** coverin
 
 1. **Clone or download this project**:
    ```bash
-   cd n8n-mcp-server
+   git clone git@github.com:DrBalls/n8n-mcp-server-v2.git
+   cd n8n-mcp-server-v2
    ```
 
 2. **Install dependencies**:
@@ -113,7 +114,7 @@ Unlike the limited default connector, this server includes **40+ tools** coverin
      "mcpServers": {
        "n8n": {
          "command": "node",
-         "args": ["/path/to/n8n-mcp-server/dist/index.js"],
+         "args": ["/absolute/path/to/n8n-mcp-server-v2/dist/index.js"],
          "env": {
            "N8N_URL": "http://localhost:5678",
            "N8N_API_KEY": "your-api-key-here"

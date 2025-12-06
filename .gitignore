@@ -1,0 +1,57 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Coverage
+coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+tsbuildinfo.tsbuildinfo
+*.tsbuildinfo
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Optional caches
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache
+.turbo
+
+# TypeScript
+*.tsbuildinfo
+
+# Lockfiles (keep if you prefer to commit)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
